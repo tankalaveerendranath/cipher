@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url(679.jpg);
+  }
+  .container h1{
+     text-align:center;
+  }
+  hr{
+    width:300px;
+    height:5px;
+    background-color:black;
+  }
+  h1{
+    padding-top:50px;
+    color: #ccc;
+    padding-left:50px;
+    padding-right:50px;
+  }
+  img{
+    padding-left:600px;
+    padding-top:80px;
+    height:500px;
+    border-radius: 10px;
+  }
+  h2{
+    color:white;
+  }
+  h1 span{
+    background: linear-gradient(to left,red,green,rgb(7, 183, 232),yellow);
+    text-transform:none;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .container .one li a{
+    text-align:center;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  nav {
+    background-color: #333;
+    padding: 20px 0;
+  }
+  .logo {
+    color: #fff;
+    font-size: 24px;
+    margin-right: auto;
+  }
+  .one {
+    list-style: none;
+  }
+  .one li {
+    display: inline;
+    margin-left: 20px;
+  }
+  .one li a {
+    color: #fff;
+    text-decoration: none;
+    text-align:center;
+    padding-left: 200px;
+  }
+  .one li a:hover{
+    color:red;
+  }
+  .two {
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 400px 0;
+    background-image: url(lap.jpg);
+  }
+  .two h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  .two p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  .btn {
+    display: inline-block;
+    background-color: #FF4500;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  .btn:hover {
+    background-color: #FF6347;
+  }
+  .features {
+    padding: 100px 0;
+    text-align: center;
+  }
+  .feature-card {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+  .features1 {
+    flex-basis: 30%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  .features1 h3 {
+    margin-bottom: 10px;
+  }
+  .contact {
+    background-color: #f4f4f4;
+    padding: 100px 0;
+  }
+  .contact form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .contact form input,
+  .contact form textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .contact form button {
+    background-color: #FF4500;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .contact form button:hover {
+    background-color: #FF6347;
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
